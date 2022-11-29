@@ -18,6 +18,7 @@ import styles from './MainTable.module.scss';
 
 const MainTable: React.FC<PropsType> = ({notices, totalNotices, currentPage, pageCount}) => {
     const dispatch = useAppDispatch();
+
     return (
         <>
             <TableContainer component={Paper}>

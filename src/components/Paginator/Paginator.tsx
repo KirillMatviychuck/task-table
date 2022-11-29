@@ -37,7 +37,7 @@ const Paginator: React.FC<PropsType> = ({currentPage, pageCount, totalNotices}) 
                            className={styles.input}/>
                     <span className={styles.arrowIcon}
                           onClick={onClickHandler}>
-                        <ForwardOutlined/>
+                        <ForwardOutlined />
                     </span>
                 </p>
             </div>
