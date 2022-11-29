@@ -1,0 +1,156 @@
+.formWrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 606px;
+    box-shadow: 0 3px 10px rgba(109, 109, 109, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+    .mainBlock {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+
+      .labelError {
+        color: crimson;
+      }
+
+      .inputBlock {
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 12px;
+
+        &.phoneBlock {
+          display: flex;
+
+          .phoneCode {
+            grid-area: code;
+            width: 282px;
+
+            .phoneCodeChanger {
+              input {
+                height: 40.2px;
+                width: 268px;
+                font-size: 14px;
+                padding-left: 12px;
+                outline: none;
+                background: #FFFFFF;
+                border: 1px solid #EAF2FF;
+                border-radius: 4px;
+
+                &::-webkit-input-placeholder {
+                  color: #ADB5BD;
+                  font-style: italic;
+                  font-weight: 300;
+                }
+              }
+            }
+
+            .phoneInputError {
+              input {
+                height: 40.2px;
+                width: 268px;
+                font-size: 14px;
+                padding-left: 12px;
+                outline: none;
+                background: #FFFFFF;
+                border: 1px solid crimson;
+                border-radius: 4px;
+
+                &::-webkit-input-placeholder {
+                  color: crimson;
+                  font-style: italic;
+                  font-weight: 300;
+                }
+              }
+            }
+          }
+
+          .phoneInput {
+            grid-area: phone;
+            width: 223px;
+          }
+        }
+
+        .defaultInput {
+          height: 40.2px;
+          width: 268px;
+          font-size: 14px;
+          padding-left: 12px;
+          outline: none;
+          background: #FFFFFF;
+          border: 1px solid #EAF2FF;
+          border-radius: 4px;
+
+          &::-webkit-input-placeholder {
+            color: #ADB5BD;
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+
+        .inputError {
+          height: 40.2px;
+          width: 268px;
+          font-size: 14px;
+          padding-left: 12px;
+          outline: none;
+          background: #FFFFFF;
+          border: 1px solid crimson;
+          border-radius: 4px;
+
+          &::-webkit-input-placeholder {
+            color: crimson;
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+
+        .phoneInput {
+          height: 40.2px;
+          width: 230px;
+          font-size: 14px;
+          padding-left: 12px;
+          outline: none;
+          background: #FFFFFF;
+          border: 1px solid #EAF2FF;
+          border-radius: 4px;
+
+          &::-webkit-input-placeholder {
+            color: #ADB5BD;
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      justify-content: flex-end;
+      height: 300px;
+      margin-right: 20px;
+
+      .submitBtn {
+        height: 40px;
+        width: 190px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #2C7DFA;
+        border: 1px solid #2C7DFA;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+    }
+  }
+}

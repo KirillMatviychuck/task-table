@@ -1,0 +1,41 @@
+.paginatorBlock {
+  margin-top: 20px;
+  margin-left: 92px;
+  display: flex;
+  align-items: center;
+
+  .paginator {
+
+  }
+
+  .changePageBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+
+    .inputBlock {
+      display: flex;
+      margin: 0 10px;
+
+      .input {
+        width: 52px;
+        height: 24px;
+      }
+
+      .arrowIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3243ff;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .pageDescription {
+    margin-left: 15px;
+  }
+}

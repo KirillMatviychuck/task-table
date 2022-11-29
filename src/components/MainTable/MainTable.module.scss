@@ -1,0 +1,43 @@
+.table {
+  font-size: 14px;
+
+  .tableHead {
+    background-color: #e0dddd;
+    height: 20px;
+
+    .tableHeadCell {
+      height: 20px;
+
+      &.sortCell {
+      cursor: pointer;
+      }
+
+      .sortBlock {
+        display: flex;
+        align-items: center;
+
+        .sortIcon {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .tableCell {
+    height: 32px;
+
+    &.titleBlock {
+      display: flex;
+      align-items: center;
+
+      span {
+        margin-left: 12px;
+      }
+    }
+
+  }
+
+  .editButtonsBlock {
+    width: 100px;
+  }
+}

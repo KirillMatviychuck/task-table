@@ -1,0 +1,27 @@
+.formHeader {
+  height: 48px;
+  border-bottom: 1px solid #EAF2FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2F2525;
+
+  .formHeaderLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17px;
+    .addBtn {
+      cursor: pointer;
+    }
+    span {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 14px;
+    }
+  }
+  .formHeaderRight {
+    padding-right: 17px;
+    cursor: pointer;
+  }
+}
